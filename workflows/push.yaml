@@ -1,7 +1,0 @@
-on:
-  push:
-jobs:
-  check-tooling:
-    runs-on: ubuntu-22.04
-    steps:
-      - run: echo "DONE"
