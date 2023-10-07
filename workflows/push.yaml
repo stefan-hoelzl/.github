@@ -1,0 +1,8 @@
+on:
+  push:
+
+jobs:
+  check-tooling:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: echo "DONE"
